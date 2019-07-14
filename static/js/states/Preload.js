@@ -18,6 +18,7 @@ Match3.PreloadState = {
     this.load.image('block6', 'static/images/bean_yellow.png');
     this.load.image('block7', 'static/images/bean_white.png');
     this.load.image('deadBlock', 'static/images/bean_dead.png');
+    this.load.image('background', 'js/images/backyard2.png');
     
 
   },
