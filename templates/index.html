@@ -14,13 +14,13 @@
     </style>
   </head>
 
-  <body>
-    <script type="text/javascript" src="js/phaser.js"></script>
-    <script type="text/javascript" src="js/states/Boot.js"></script>
-    <script type="text/javascript" src="js/states/Preload.js"></script>
-    <script type="text/javascript" src="js/states/Game.js"></script>
-    <script type="text/javascript" src="js/prefabs/Board.js"></script>
-    <script type="text/javascript" src="js/prefabs/Block.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+  <body>    
+    <script type="text/javascript" src= "{{ url_for('static', filename = 'js/phaser.js') }}" ></script>
+    <script type = "text/javascript" src = "{{ url_for('static', filename = 'js/states/Game.js') }}" ></script>
+    <script type = "text/javascript" src = "{{ url_for('static', filename = 'js/states/Preload.js') }}" ></script>
+    <script type = "text/javascript" src = "{{ url_for('static', filename = 'js/states/BootState.js') }}" ></script>
+    <script type="text/javascript" src= "{{ url_for('static', filename = 'js/prefabs/Board.js') }}" ></script>
+    <script type="text/javascript" src= "{{ url_for('static', filename = 'js/prefabs/Block.js') }}" ></script>
+    <script type="text/javascript" src= "{{ url_for('static', filename = 'js/main.js') }}" ></script>
   </body>
 </html>
