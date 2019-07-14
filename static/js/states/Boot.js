@@ -15,7 +15,7 @@ Match3.BootState = {
   },
   preload: function() {
     //assets we'll use in the loading screen
-    this.load.image('bar', 'static/js/images/preloader-bar.png');
+    this.load.image('bar', 'static/images/preloader-bar.png');
   },
   create: function() {
     this.state.start('Preload');
