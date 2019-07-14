@@ -10,15 +10,15 @@ Match3.PreloadState = {
     this.load.setPreloadSprite(this.preloadBar);
 
     //load game assets
-    this.load.image('block1', 'static/js/images/bean_blue.png');
-    this.load.image('block2', 'static/js/images/bean_green.png');
-    this.load.image('block3', 'static/js/images/bean_orange.png');
-    this.load.image('block4', 'static/js/images/bean_pink.png');
-    this.load.image('block5', 'static/js/images/bean_purple.png');
-    this.load.image('block6', 'static/js/images/bean_yellow.png');
-    this.load.image('block7', 'static/js/images/bean_white.png');
-    this.load.image('deadBlock', 'static/js/images/bean_dead.png');
-    this.load.image('background', 'static/js/images/backyard2.png');
+    this.load.image('block1', 'static/images/bean_blue.png');
+    this.load.image('block2', 'static/images/bean_green.png');
+    this.load.image('block3', 'static/images/bean_orange.png');
+    this.load.image('block4', 'static/images/bean_pink.png');
+    this.load.image('block5', 'static/images/bean_purple.png');
+    this.load.image('block6', 'static/images/bean_yellow.png');
+    this.load.image('block7', 'static/images/bean_white.png');
+    this.load.image('deadBlock', 'static/images/bean_dead.png');
+    this.load.image('background', 'static/images/backyard2.png');
 
   },
   create: function() {
